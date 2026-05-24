@@ -18,6 +18,8 @@ dependencies = [
     "nidaqmx",
     "pydaqmx>=1.4.7",
     "qdarkstyle>=3.2.3",
+    "pyvisa>=1.16.2",
+    "simplejson>=4.1.1",
 ]
 
 [project.optional-dependencies]
