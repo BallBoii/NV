@@ -2,8 +2,6 @@
 
 PyQt6 GUI for a confocal microscope: galvanometer XY scanning, Thorlabs piezo Z-axis, NI-DAQmx APD photon counting, and live camera preview.
 
-> **Branch:** development happens on `Confocal-Only`. Do not merge from `master` (which contains other modalities like AWG / PicoHarp / FLIM).
-
 ---
 
 ## Setup
