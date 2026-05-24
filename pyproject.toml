@@ -16,6 +16,8 @@ dependencies = [
     "pytz",
     "PyYAML",
     "nidaqmx",
+    "pydaqmx>=1.4.7",
+    "qdarkstyle>=3.2.3",
 ]
 
 [project.optional-dependencies]
