@@ -4,7 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "PyQt6",
-    "numpy",
+    "numpy==1.26.4",
     "scipy",
     "matplotlib",
     "pyqtgraph",
