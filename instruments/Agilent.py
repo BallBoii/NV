@@ -128,7 +128,8 @@ class AWG33622A(GPIBdev.GPIBdev):
 
     def __init__(self, dev):
         super().__init__(dev)
-        self.inst.timeout = 10000
+        if self.connected:
+            self.inst.timeout = 10000
         self.alias = ''  # alias is pb channel name
 
         # limits of the device

@@ -212,7 +212,6 @@ class MainExp_GUI(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
                         i += 1
             except Exception as e:
                 print('Instrument %s initilization error!' % ins)
-                raise Exception(e)
 
         # Create a timer for updating wavemeter reading
         self.wavemeter_timer = QtCore.QTimer()
